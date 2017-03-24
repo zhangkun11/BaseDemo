@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="luck_draw">#f04428</color>
+    <color name="luck_draw_dark">#B0220C</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="orange">#EE7C30</color>
+    <color name="text_black">#666666</color>
+    <color name="table_cell">#add7e7</color>
+    <color name="table_imression">#add7e7</color>
+    <color name="table_vip">#ffd8f5</color>
+    <color name="table_silver">#efeefe</color>
+    <color name="table_gold">#fffece</color>
+    <color name="table_platinum">#ccffff</color>
+    <color name="table_diamond">#f9c04c</color>
+    <color name="table_gold_diamond">#d08d00</color>
+    <color name="table_crown">#f9894c</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="wallet_line_color">#d9d9d9</color>
+    <color name="widget_btn_nor_color">#666666</color>
+    <color name="widget_btn_click_color">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#5acbe9</color>
+    <color name="def_green">#00ff00</color>
+    <color name="reatry_gray">#666666</color>
+
+    <item name="transparent" type="drawable">#00000000</item>
+
+    <color name="half_transparent">#aa000000</color>
+
+    <drawable name="ed_on_focus">#c8e4eb</drawable>
+    <drawable name="ed_on_nor">#d0d0d0</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="list_selector">#00586f</drawable>
+
+    <color name="bg_actionbar">#28bba4</color>
+    <color name="bg_activity">#ebebeb</color>
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+    <color name="colorSp">#FF821C</color>
+
+</resources>

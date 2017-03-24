@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/versionName"
+        android:layout_weight="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="正式版本3.2.0" />
+
+    <ScrollView
+        xmlns:support="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="30dp">
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            support:columnCount="2">
+
+            <EditText
+                android:id="@+id/userName"
+                style="@style/editText.Round"
+                android:layout_marginBottom="15dp"
+                support:layout_columnSpan="2"
+                android:maxLength="@integer/user_id_max_length"
+                support:layout_gravity="fill_horizontal"
+                android:hint="用户名" />
+
+            <EditText
+                android:id="@+id/pwd"
+                style="@style/editText.Round"
+                android:layout_marginBottom="15dp"
+                support:layout_columnSpan="2"
+                android:maxLength="@integer/pwd_max_length"
+                support:layout_gravity="fill_horizontal"
+                android:hint="请输入密码"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/dynamicPwd"
+                android:hint=""
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/login"
+                style="@style/btnStyleLogin"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                support:layout_columnSpan="2"
+                support:layout_gravity="fill_horizontal"
+                android:text="登录" />
+
+            <TextView
+                android:id="@+id/unlock"
+                style="@style/textViewStyle"
+                android:text="解锁" />
+
+            <TextView
+                android:id="@+id/resetPwd"
+                support:layout_gravity="right"
+                style="@style/textViewStyle"
+                android:text="忘记密码" />
+        </android.support.v7.widget.GridLayout>
+    </ScrollView>
+
+
+</LinearLayout>

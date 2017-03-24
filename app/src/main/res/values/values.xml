@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="adapter_item_tag_key" type="id"/>
+    <integer name="user_id_max_length">20</integer>
+    <integer name="pwd_max_length">20</integer>
+    <integer name="random_code_max_length">6</integer>
+</resources>

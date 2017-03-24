@@ -1,0 +1,110 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="OaBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/bg_activity</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="OaTheme" parent="OaBaseTheme">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="colorPrimary">@color/bg_actionbar</item>
+        <item name="colorPrimaryDark">#038f7f</item>
+        <item name="actionMenuTextAppearance">@style/ActionBarMenu</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="LuckDrawTheme" parent="OaBaseTheme">
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="colorPrimary">@color/luck_draw</item>
+        <item name="colorPrimaryDark">@color/luck_draw_dark</item>
+        <item name="actionMenuTextAppearance">@style/ActionBarMenu</item>
+    </style>
+
+    <style name="ActionBarMenu">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+
+        <!-- Support library compatibility -->
+        <!--<item name="background">@color/bg_actionbar</item>-->
+    </style>
+
+    <style name="Theme.HalfTranslucent" parent="OaTheme">
+        <item name="android:windowBackground">@color/half_transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Animation" />
+
+    <style name="Animation.Translucent" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/translucent_zoom_out</item>
+        <item name="android:windowExitAnimation">@anim/translucent_zoom_exit</item>
+    </style>
+
+    <style name="item_home">
+        <!-- <item name="android:padding">10dp</item> -->
+    </style>
+
+    <style name="PasswordDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@drawable/dialog_password_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AlertDialog">
+        <item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="main_item">
+        <item name="android:textColor">@color/main_btn_text_color</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:drawableTop">@dimen/space_size_2</item>
+        <item name="android:drawablePadding">@dimen/space_size_4</item>
+    </style>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/widget_btn_color</item>
+        <item name="android:background">@drawable/home_btn_bg</item>
+        <item name="android:paddingTop">@dimen/space_size_5</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/space_size_2</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+</resources>

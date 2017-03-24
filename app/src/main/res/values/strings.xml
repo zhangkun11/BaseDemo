@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OA办公</string>
+
+    <!-- activity label -->
+    <string name="orderDetail">订单详情</string>
+    <!-- 二级列表 -->
+    <string name="selv_shop_sales_list">店销售列表</string>
+    <string name="selv_shop_new_user">新伙伴加入</string>
+    <string name="selv_shop_sales_hitory">店交易记录</string>
+    <string name="selv_shop_recover_sales">新建重复消费</string>
+    <string name="selv_shop_wallet">店钱包</string>
+    <string name="selv_shop_spe_store_transfer">专卖店转账</string>
+    <string name="selv_shop_look_all_count">查看全部单据</string>
+    <string name="selv_person_date">资料信息</string>
+    <string name="selv_dealer_my_declaration">我的报单</string>
+    <string name="selv_dealer_sales_list">销售列表</string>
+    <string name="selv_password_alter_fir">修改一级密码</string>
+    <string name="selv_password_alter_sen">修改二级密码</string>
+    <string name="selv_account_look_sales">查看交易记录</string>
+    <string name="selv_account_royalty_history">提成历史明细</string>
+    <string name="selv_account_transfer_apply">转账申请</string>
+    <string name="selv_account_cash_apply">提现申请</string>
+    <string name="selv_account_my_wallet">我的钱包</string>
+    <string name="agreement">销售员申请书</string>
+
+    <!-- 首页 label -->
+    <string name="main_dealer_label">经销商中心</string>
+    <string name="main_password_label">密码管理</string>
+    <string name="main_shopcenter_label">店中心</string>
+    <string name="main_account_label">账簿管理</string>
+    <string name="main_product_label">产品介绍</string>
+    <string name="main_person_label">个人中心</string>
+    <string name="main_newcenter_label">信息中心</string>
+    <string name="main_toorder_label">我要订货</string>
+    <string name="main_query_label">查询订货单</string>
+
+    <!-- 页面中 -->
+
+    <!-- 按钮 -->
+    <string name="save">提交</string>
+    <string name="btn_confirm">确认</string>
+    <string name="btn_cancel">取消</string>
+
+    <!-- 底部栏 -->
+    <!-- 我的报单 -->
+    <string name="custom_order_num">订单编号:</string>
+    <string name="custom_order_type">订单类型:</string>
+    <string name="custom_order_status">订单状态:</string>
+    <string name="custom_order_date">订单日期:</string>
+    <string name="custom_state">状态:</string>
+    <string name="custom_total_amount">总金额:</string>
+    <string name="custom_total_pv">总PV:</string>
+
+    <!-- 汇款登记 -->
+    <string name="remit_contact_num">联系电话</string>
+
+    <!-- 我的钱包 -->
+    <string name="wallet_person_wal">个人钱包</string>
+    <string name="wallet_reward_point">奖励积分</string>
+
+    <!-- 服务列表 -->
+    <string name="service_dealer_num">经销商编号:</string>
+    <string name="service_user_name">用户名:</string>
+    <string name="service_per_retail_sale">个人零售业绩:</string>
+    <string name="service_commission">销售提成:</string>
+    <string name="service_team_retail_sale">团队零售业绩:</string>
+    <string name="service_is_treaty">是否确认申请书:</string>
+    <string name="service_person">服务人:</string>
+    <string name="service_query">查询</string>
+    <string name="service_top">顶部</string>
+    <string name="service_wek_per_retail_sale">当前经销商本周的个人零售业绩为:</string>
+    <string name="service_wek_team_retail_sale">团队零售业绩为:</string>
+    <string name="service_person_num">服务人编号:</string>
+    <string name="service_sale_num">销售人编号:</string>
+    <string name="service_join_date">加入日期:</string>
+    <string name="service_node_pos">节点位置:</string>
+    <string name="service_agent_level">代理级别:</string>
+    <string name="service_welfare_level">福利级别:</string>
+    <string name="service_list_closed">服务列表已关闭</string>
+    <string name="service_list_frozen">服务列表已冻结</string>
+
+    <!-- 密保设置 -->
+
+    <!-- 查看交易记录 -->
+    <string name="wallet_type">钱包类型:</string>
+    <string name="deal_type">交易类型:</string>
+    <string name="deal_bf_mny">交易前金额:</string>
+    <string name="deal_mny">交易金额:</string>
+    <string name="deal_af_mny">交易后余额:</string>
+    <string name="deal_time">交易时间:</string>
+    <string name="instruction">说明:</string>
+    <string name="remark">备注:</string>
+    <!-- ========================================================================== -->
+
+
+    <!-- 登陆界面 -->
+
+    <!-- 销售列表 -->
+
+    <string name="sales_list_bottom">底部</string>
+    <string name="sales_list_tip">此处的业绩到前一个整点为止的所有未正式结算过的业绩</string>
+    <string name="sales_list_remain">余</string>
+    <string name="sales_list_new">新</string>
+    <string name="sales_list_new_last_wek">上周新增</string>
+    <string name="sales_list_top_base_color">上部底色</string>
+    <string name="sales_list_silver_card">银卡</string>
+    <string name="sales_list_gold_card">金卡</string>
+    <string name="sales_list_platinum_card">白金</string>
+    <string name="sales_list_diamond_card">钻石</string>
+    <string name="none">无</string>
+    <string name="welfare_level_no_enough">福利等级不够</string>
+    <string name="welfare_error_tip">您福利级别低于要查询的经销商的福利级别，无查看权限！</string>
+    <string name="person_data_key_info">经销商关键信息</string>
+    <string name="person_data_user_name">经销商用户名</string>
+    <string name="person_data_xm">经销商姓名</string>
+    <string name="person_data_add_date">加入日期</string>
+    <string name="person_data_id_type">证件类型</string>
+    <string name="person_data_id_num">证件号码</string>
+    <string name="person_data_performance_info">经销商业绩信息</string>
+    <string name="person_data_jb">级别</string>
+    <string name="person_data_ybm">原部门</string>
+    <string name="person_data_saler">销售人</string>
+    <!-- MainActivity -->
+    <!-- 产品介绍类表 -->
+    <string name="product_show_price">价格：</string>
+    <string name="product_show_pv">总PV：</string>
+    <!-- 公用 -->
+    <string name="waiting_dialog_loading">正在加载...</string>
+    <string name="no_per_to_check">无查看权限</string>
+    <string name="two_psw_wrong">二级密码错误</string>
+    <string name="please_enter_two_psw">请输入二级密码</string>
+    <string name="download_success">下载成功</string>
+    <string name="download_fail">下载失败</string>
+    <string name="downloading">正在下载</string>
+    <string name="soft_update">软件升级</string>
+    <string name="system_msg">系统消息</string>
+    <string name="get_detail">获取详情...</string>
+    <string name="get_more_btn">获取更多</string>
+    <string name="contain_wrong_chars">存在非法字符</string>
+    <string name="isChangeing">正在修改...</string>
+    <!-- 新伙伴加入 -->
+    <string name="add_user_enter_username">输入用户名</string>
+    <string name="add_user_hiden_username">3-11位有效字符</string>
+    <string name="add_user_enter_credit_number">输入证件号码</string>
+    <string name="add_user_enter_service_number">输入服务人编号</string>
+    <string name="add_user_enter_sale_number">输入销售人编号</string>
+    <string name="add_user_enter_net_name">输入网名</string>
+    <string name="add_user_enter_open_name">输入开户名</string>
+    <string name="add_user_enter_bank_number">输入银行账号</string>
+    <string name="add_user_enter_phone_number">输入电话</string>
+    <string name="modify_user_enter_phone_number">输入手机号</string>
+    <string name="add_user_hiden_phone_top">为便于接收初始密码和找回密码，请输入正确手机号码</string>
+    <string name="add_user_hiden_phone">注：手机（以数字1开头的11位数字） 固话（区号-7位或8位的数字号码）</string>
+    <string name="add_user_by_phone_number">输入备用电话</string>
+    <string name="add_user_enter_code_number">输入邮编</string>
+    <string name="add_user_enter_email">输入邮箱</string>
+    <string name="add_user_enter_ds">输入电商编号</string>
+    <string name="add_user_cancel_progress">取消操作</string>
+    <string name="add_user_wrong_title">错误提示</string>
+    <string name="add_user_toast_goods_number">订购商品为0，请添加商品</string>
+    <string name="add_user_toast_bm">登录时未获取部门编号，请联系客户人员</string>
+    <string name="add_user_toast_varTeamNO">登录时未获取 varTeamNO，请联系客户人员</string>
+    <string name="add_user_toast_varUserID">登录时未获取varUserID，请联系客户人员</string>
+    <string name="add_user_toast_varStore">登录时未获取仓库编号，请联系客户人员</string>
+    <string name="add_user_toast_dealer">经销商编号不能为空</string>
+    <string name="add_user_toast_dealer_true">经销商编号不存在</string>
+    <string name="add_user_toast_ticket_true">您输入的奖券张数超出可使用范围!</string>
+    <string name="add_user_toast_username">用户名不能为空</string>
+    <string name="add_user_toast_card_number">证件号不能为空</string>
+    <string name="add_user_toast_cart_number_wrong">身份证格式错误</string>
+    <string name="add_user_toast_service">服务人编号不能为空</string>
+    <string name="add_user_toast_sale">销售人编号不能为空</string>
+    <string name="add_user_toast_openName">开户名不能为空</string>
+    <string name="add_user_toast_name_length">请输入2-20位字符的开户名</string>
+    <string name="add_user_toast_bankNumber">银行账号不能为空</string>
+    <string name="add_user_toast_openAddress">开户地址不能为空</string>
+    <string name="add_user_toast_openAddressLocal">开户详细地址不能为空</string>
+    <string name="add_user_toast_address_length">请输入2-50位字符地址</string>
+    <string name="add_user_toast_address">地址不能为空</string>
+    <string name="add_user_toast_addressLocal">详细地址不能为空</string>
+    <string name="add_user_toast_phone">电话不能为空</string>
+    <string name="add_user_ts_title">提示消息</string>
+    <string name="add_user_register_msg">注册消息</string>
+    <string name="add_user_registering">正在注册...</string>
+    <string name="add_user_dealer_number">经销商编号</string>
+    <string name="add_user_userName">用户名</string>
+    <string name="add_user_zj_type">证件类型</string>
+    <string name="add_user_credit_number">证件号码</string>
+    <string name="add_user_point_type">库存类型</string>
+    <string name="add_user_service_number">服务人编号</string>
+    <string name="add_user_get_end">获取网络末端</string>
+    <string name="add_user_saler_number">销售人编号</string>
+    <string name="add_user_jdwz">节点位置</string>
+    <string name="add_user_netName">网名</string>
+    <string name="add_user_openName">开户名</string>
+    <string name="add_user_openBank">开户银行</string>
+    <string name="add_user_bankNumber">银行账号</string>
+    <string name="add_user_openAddress">开户地址</string>
+    <string name="add_user_phone">电话</string>
+    <string name="add_user_by_phone">备用电话</string>
+    <string name="add_user_postCode">邮编</string>
+    <string name="add_user_email">Email</string>
+    <string name="add_user_ds">电商编号</string>
+    <string name="add_user_address">地址</string>
+    <!-- 添加商品页 -->
+    <string name="add_goods_ad_price">￥：</string>
+    <string name="add_goods_ad_pv">PV：</string>
+    <string name="add_goods_ad_number">数量:</string>
+    <!-- 地址管理页面 -->
+    <string name="address_manager_loading">加载省份...</string>
+    <string name="address_manager_city_loading">加载城市...</string>
+    <string name="address_manager_country_loading">加载区县...</string>
+    <string name="address_manager_title">地址管理</string>
+    <string name="address_manager_toast_local">详细地址不能为空</string>
+    <string name="address_manager_toast_contain">包含非法字符</string>
+    <string name="address_manager_toast_length">请输入2-50有效字符</string>
+    <string name="address_manager_address_hide">请输入详细地址</string>
+    <!-- 查看公告 -->
+    <string name="announce_title">查看公告</string>
+    <!-- 承运信息 -->
+    <string name="carrier_title">承运信息</string>
+    <string name="carrier_code">承运编码：</string>
+    <string name="carrier_com">承运公司：</string>
+    <string name="carrier_connect">承运联系方式：</string>
+    <string name="carrier_people">承运联系人：</string>
+    <string name="carrier_time">承运时间：</string>
+    <string name="carrier_shdz">收货地址</string>
+    <string name="carrier_shr">收货人</string>
+    <string name="carrier_cygsdz">承运公司地址</string>
+    <string name="carrier_cysj">承运时间</string>
+    <string name="carrier_cydbm">承运单编码</string>
+    <string name="carrier_cylxfs">承运联系方式</string>
+    <string name="carrier_cylxr">承运联系人</string>
+    <string name="carrier_gs">承运公司</string>
+    <string name="carrier_dhdbm">订货单编码</string>
+    <string name="carrier_chdbm">出库单编码</string>
+    <string name="carrier_lx">类型</string>
+    <string name="carrier_cybm">承运编码</string>
+    <!-- 修改密码 -->
+    <string name="change_first_password">修改一级密码</string>
+    <string name="change_second_password">修改二级密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="change_password_notice">*请妥善管理密码，因密码泄露引起的一切损失，后果自负</string>
+    <string name="change_password_old">旧密码</string>
+    <string name="change_password_new">新密码</string>
+    <string name="change_password_new_confirm">确认新密码</string>
+    <string name="change_password_remind">密码长度限8-20位，必须包含字母和数字</string>
+    <!-- 报单详情 -->
+    <string name="custome_detail_loading">加载报单详情</string>
+    <string name="custome_detail_title">报单详情</string>
+    <string name="custome_detail_jbxx">基本信息</string>
+    <string name="custome_detail_order_type">订单类型</string>
+    <string name="custome_detail_zmdid">专卖店编号</string>
+    <string name="custome_detail_dh">单号</string>
+    <string name="custome_detail_order_date">订货日期</string>
+    <string name="custome_detail_bz">备注</string>
+    <string name="custome_detail_zfxg">支付相关</string>
+    <string name="custome_detail_zflx">支付类型</string>
+    <string name="custome_detail_product_list">产品列表</string>
+    <!-- 承运详情 -->
+    <string name="bill_info_no">承运单号</string>
+    <string name="bill_info_company">承运公司</string>
+    <string name="bill_info_state">当前状态</string>
+    <string name="bill_info_url">网址</string>
+    <string name="bill_info_phone">快递客服电话</string>
+    <string name="bill_info_add">收货地址</string>
+    <string name="bill_info_detail">详细</string>
+    <string name="bill_info_no_msg">承运信息</string>
+    <!-- 提成历史明细 -->
+    <string name="deduct_history_title">提成历史明细</string>
+    <string name="deduct_history_js_date">结算日期</string>
+    <string name="deduct_history_status">状态：</string>
+    <string name="deduct_history_hj">合计：</string>
+    <string name="deduct_history_xstc">销售提成：</string>
+    <string name="deduct_history_fljf">福利积分：</string>
+    <string name="deduct_history_detail_title">提成历史详情</string>
+    <string name="deduct_history_detail_status">状态</string>
+    <string name="deduct_history_detail_xstc">销售提成</string>
+    <string name="deduct_history_detail_scbt">市场补贴</string>
+    <string name="deduct_history_detail_db">店补</string>
+    <string name="deduct_history_detail_djc">店级差</string>
+    <string name="deduct_history_detail_zhgl">综合管理费</string>
+    <string name="deduct_history_detail_hj">合计</string>
+    <string name="deduct_history_detail_lyjf">旅游积分</string>
+    <string name="deduct_history_detail_fhhg">分红(皇冠)</string>
+    <string name="deduct_history_detail_fhkshg">分红扣税(皇冠)</string>
+    <string name="deduct_history_detail_fhshg">分红(双皇冠)</string>
+    <string name="deduct_history_detail_fhksshg">分红扣税(双皇冠)</string>
+    <string name="deduct_history_detail_fh3hg">分红(三皇冠)</string>
+    <string name="deduct_history_detial_fhks3hg">分红扣税(三皇冠)</string>
+    <string name="deduct_history_detail_fh4hg">分红(四皇冠)</string>
+    <string name="deduct_history_detail_fhks4hg">分红扣税(四皇冠)</string>
+    <string name="deduct_history_detail_fh5hg">分红(五皇冠)</string>
+    <string name="deduct_history_detail_fhks5hg">分红扣税(五皇冠)</string>
+    <string name="deduct_history_detail_fh6hg">分红(六皇冠)</string>
+    <string name="deduct_history_detail_fhks6hg">分红扣税(六皇冠)</string>
+    <string name="deduct_history_detail_fljf">福利积分</string>
+    <!-- 提现申请 -->
+    <string name="input_wd_amount">输入提现金额</string>
+    <string name="hundred_format">格式：100.00</string>
+    <string name="wd_apply_toast_account">提现不能为空</string>
+    <string name="wd_apply_account_least">提现金额最少为</string>
+    <string name="wd_apply_yuan">元</string>
+    <string name="wd_apply_account_not_enough">金额不足</string>
+    <string name="wd_apply_wd_in_progress">正在提现...</string>
+    <string name="wd_apply_wd_message">提现消息</string>
+    <string name="wd_apply_avilable_amount">可提现金额:</string>
+    <string name="wd_apply_applied_wd_amount">已申请提现金额:</string>
+    <string name="wd_apply_wd_amount">提现金额:</string>
+    <!-- 转账申请 -->
+    <string name="loding_data">加载数据...</string>
+    <string name="enter_store_number">请输入专卖店编号</string>
+    <string name="input_transfer_out_amount">输入转出金额</string>
+    <string name="transfer_out_amount_format">(小数点后保留两位)</string>
+    <string name="input_in_store_num">输入转入经销商编号</string>
+    <string name="input_note">输入备注</string>
+    <string name="transfer_wd_toast_amount">转出金额不能为空</string>
+    <string name="transfer_rt_toast_amount">转出奖券不能为空</string>
+    <string name="transfer_wd_toast_store_num">转入专卖店编号不能为空</string>
+    <string name="isTransfering">正在转账...</string>
+    <string name="transfer_msg">转账消息</string>
+    <string name="transfer_out_dealer_num">转出经销商编号</string>
+    <string name="transfer_wallet_balance">钱包余额</string>
+    <string name="transfer_out_amount">转出金额</string>
+    <string name="transfer_in_store_num">转入经销商编号</string>
+    <string name="look_shop_keeper_name">查看店主姓名</string>
+    <!-- 解锁页面 -->
+    <string name="unlock_jsfs">解锁方式</string>
+    <string name="unlock_mmbhwt">密码保护问题</string>
+    <string name="unlock_da">答案</string>
+    <string name="unlock_btn_tc">退出</string>
+    <string name="unlock_get_random_code">获取验证码</string>
+    <!-- 专卖店转账 -->
+    <string name="store_transfer_out_store_num">转出专卖店编号</string>
+    <string name="store_transfer_type_label">转出钱包类型</string>
+    <string name="store_transfer_payment_balance_label">现有金额</string>
+    <string name="store_transfer_description_label">描述</string>
+    <string name="store_payment_account">店支付账户</string>
+    <string name="store_transfer_reward_point">奖励积分</string>
+    <string name="store_payment_account_kc">店支付库存</string>
+    <string name="store_transfer_reward_point_kc">奖励积分库存</string>
+    <string name="enter_description">输入描述</string>
+    <string name="store_num_not_exist">专卖店编号不存在</string>
+    <string name="store_transfer_format_error">转出金额格式错误</string>
+    <string name="store_transfer_balance_not_enough">账户余额不足</string>
+    <!-- 重复消费单 -->
+    <string name="double_spending_title">重复消费单</string>
+    <string name="double_spending_submiting">正在提交...</string>
+    <string name="double_spending_enter_dealer_id">输入经销商编号</string>
+    <string name="double_spending_enter_shr">输入收货人</string>
+    <string name="double_spending_enter_bz">输入备注信息</string>
+    <string name="double_spending_enter_spare_contact">输入备用联系人</string>
+    <string name="double_spending_enter_spare_phone">输入备用联系人电话</string>
+    <string name="double_spending_enter_baodan_phone">输入报单经销商电话</string>
+    <string name="double_spending_enter_mobile">输入联系电话</string>
+    <string name="double_spending_enter_varshopid">登录时未获取varShopID，请联系客户人员</string>
+    <string name="double_spending_enter_varshopuserid">登录时未获取varShopUserID，请联系客户人员</string>
+    <string name="double_spending_type">报单类型</string>
+    <!-- 输入框 -->
+    <string name="input_wrong_type">格式错误</string>
+    <string name="input_wrong_11_length">超出11限制金额</string>
+    <string name="input_wrong_user_3_11">用户名为3-11位有效字符</string>
+    <string name="input_enter_2_10">请输入2-20位字符</string>
+    <string name="input_post_need_6">邮编为六位</string>
+    <string name="input_post_need_7">名字长度不能超过20个</string>
+    <string name="input_post_need_8">电话格式有误</string>
+    <string name="input_phone_wrong">电话格式错误</string>
+    <string name="input_email_wrong">邮箱格式错误</string>
+    <!-- 登陆 -->
+    <string name="logining">正在登录...</string>
+    <!-- 查看店交易记录 -->
+    <string name="wallet_type_no">钱包类型</string>
+    <string name="sale_type">交易类型</string>
+    <string name="sale_time">交易日期:</string>
+    <string name="to">至</string>
+    <!-- OrderGoodsPrepare -->
+    <string name="place_check_store">请选择仓库</string>
+    <string name="yf">运费:</string>
+    <string name="order_smg">订货消息</string>
+    <string name="order_prepared_toast_uid">登录时未获取varUID，请联系客户人员</string>
+    <string name="order_prepared_toast_chrshoptype">登录时未获取ChrShopType，请联系客户人员</string>
+    <string name="order_prepared_toast_shr_empty">收货人不能为空</string>
+    <string name="order_prepared_toast_lxdh_empty">联系电话不能为空</string>
+    <string name="order_prepated_toast_store_empty">仓库不能为空</string>
+    <string name="order_prepared_dzfye">店支付账户余额</string>
+    <string name="order_prepared_jljfye">奖励积分账户余额</string>
+    <string name="order_prepared_grqbye">个人钱包账户余额</string>
+    <string name="order_look_shop_name">查看姓名</string>
+    <string name="order_ssck">所属仓库</string>
+    <string name="order_spare_contact">备用联系人</string>
+    <string name="order_spare_phone">备用联系人电话</string>
+    <string name="baodan_phone">报单经销商电话</string>
+    <!-- 个人中心 -->
+    <string name="change_net_name">修改网名</string>
+    <string name="enter_right_post_code">请输入正确的邮编</string>
+    <string name="enter_input_phone">请输入电话</string>
+    <string name="enter_right_phone_number">请输入正确的电话</string>
+    <string name="enter_address">请输入地址</string>
+    <string name="enter_right_email">请输入正确的email</string>
+    <string name="enter_right_by_phone_number">请输入正确的备用电话号码</string>
+    <string name="enter_rignt_user_net_name">请输入2-10位有效网名</string>
+    <string name="modify_msg">修改消息</string>
+    <string name="man">男</string>
+    <string name="women">女</string>
+    <string name="sex">性别</string>
+    <string name="birthday">生日</string>
+    <string name="jxsjcxx">经销商基础信息</string>
+    <string name="lxr">联系人</string>
+    <string name="dealer_connect_xx">经销商联系信息</string>
+    <string name="dealer_sk_bank_xx">经销商收款银行信息</string>
+    <!-- ProductDetail -->
+    <string name="isGetting">正在获取...</string>
+    <string name="product_detail_title">产品详情</string>
+    <string name="product_code">产品编号:</string>
+    <string name="product_gg">规格:</string>
+    <string name="product_pv">PV:</string>
+    <string name="product_price">单价￥:</string>
+    <!-- 店钱包 -->
+
+    <!-- 用户资料 -->
+    <string name="service_user_info">经销商详情</string>
+    <!-- 服务列表 -->
+    <string name="service_sorry_no_per_to_check">抱歉，您无权限查看</string>
+    <!-- 订单详情 -->
+    <string name="deliver_info">配送信息</string>
+    <string name="all">全部</string>
+    <string name="query_order_shr">收货人:</string>
+    <string name="query_order_dh">电话:</string>
+    <!-- 查看全部单据 -->
+    <string name="query_all_order">查看全部单据</string>
+    <string name="enter_order_num">请输入要查询的订单编号</string>
+    <string name="query_all_order_creation_time">创建时间:</string>
+    <string name="query_all_order_applier">申请人:</string>
+    <string name="product_list_order_num">订货数量</string>
+    <string name="product_list_total_pv">总PV</string>
+    <string name="product_list_total_price">总价格</string>
+    <!-- 报单ad -->
+    <string name="normal">正常</string>
+    <string name="trash">置废</string>
+    <string name="get_fail">获取失败</string>
+
+    <!-- shopCartAdapter -->
+    <string name="adapter_product_list_num">产品编号:</string>
+    <string name="adapter_product_list_name">产品名称:</string>
+    <string name="adapter_product_list_order_amount">订货数量:</string>
+    <string name="adapter_product_list_single_pv">单价PV:</string>
+    <string name="adapter_product_list_single_price">单价:</string>
+    <string name="adapter_product_list_total_pv">总PV:</string>
+    <string name="adapter_product_list_real_qty">实发数量:</string>
+    <string name="adapter_product_list_total_price">总价格:</string>
+    <!-- 转入电商 -->
+    <string name="trans_to_store_account_type_label">账户类型</string>
+    <string name="trans_to_store_account_type">奖券</string>
+    <string name="trans_to_store_wallet_ye_label">钱包余额</string>
+    <string name="trans_to_store_raffleTicket_number">转出张数</string>
+    <string name="trans_to_store_raffleTicket_ye_label">剩余张数</string>
+    <string name="trans_to_store_label">转入电商</string>
+    <!-- 店钱包转入电商 -->
+    <string name="selv_shop_strans_to_store">店钱包转入电商</string>
+    <string name="please_enter_integer">请输入整数格式</string>
+
+    <!-- dialog -->
+    <string name="dialog_ensure_zhuce">此操作属申报业绩，非订货行为，是否继续？</string>
+    <string name="dialog_ensure_spending">此操作属重复消费，非订货行为，是否继续？</string>
+    <string name="person_data_fljb">福利级别</string>
+
+    <!-- 经销商加盟协议 -->
+    <string name="join_treaty_title">销售员申请书</string>
+    <string name="join_treaty_btn_label_no">确认</string>
+    <string name="join_treaty_btn_label_yes">您已经确认签订加盟协议</string>
+    <!-- 最新四周业绩 -->
+    <string name="fwnacht_title">五周最新业绩</string>
+    <string name="fwnacht_item_new_a">营销一部</string>
+    <string name="fwnacht_item_new_b">营销二部</string>
+
+    <!-- 校验码填写 -->
+    <string name="treaty_code_title">填写确认码</string>
+    <string name="treaty_code_mobile_hint">短信确认码</string>
+    <string name="treaty_code_empty">短信确认码不能为空</string>
+    <string name="treaty_code_title_hide">请输入手机收到的确认码</string>
+    <string name="treaty_code_sub_req_title">认证失败：</string>
+    <string name="treaty_code_title_start">请输入手机</string>
+    <string name="treaty_code_title_end">收到的确认码，为避免认证失败，在认证过程中请勿修改手机号，谢谢合作</string>
+
+    <!-- 费用交纳 -->
+    <string name="pay_cost_title">费用缴纳</string>
+    <string name="pay_cost_pay_type_label">缴费项目</string>
+    <string name="pay_cost_pay_count_label">支付账户</string>
+    <string name="pay_cost_pay_mny">缴费金额</string>
+    <string name="pay_cost_pay_num">缴费编号</string>
+    <string name="pay_cost_look_owner">查看姓名</string>
+    <string name="pay_cost_loading">正在缴纳费用</string>
+    <string name="query_cost_pay_num_empty">缴费编号不能为空</string>
+    <string name="query_cost_pay_type_empty">缴费项目不能为空</string>
+    <!-- 查看缴费记录 -->
+    <string name="query_cost_record_title">缴费记录</string>
+    <string name="query_cost_record_type_label">缴费类型</string>
+    <string name="query_cost_record_statu_label">状态</string>
+    <string name="query_cost_record_pay_type_label">支付类型</string>
+    <string name="query_cost_record_pay_number_label">缴费流水号</string>
+    <string name="adapter_query_cost_item_paynumberlabel">缴费流水号：</string>
+    <string name="adapter_query_cost_item_status">状态：</string>
+    <string name="adapter_query_cost_item_paytyep">支付类型：</string>
+    <string name="adapter_query_cost_item_paynum">缴费编号：</string>
+    <string name="adapter_query_cost_item_costtype">缴纳类型：</string>
+    <string name="adapter_query_cost_item_remarks">备注：</string>
+    <string name="adapter_query_cost_item_mny">缴纳金额：</string>
+    <string name="adapter_query_cost_item_paytime">缴纳时间：</string>
+    <string name="adapter_query_cost_item_successtime">审核时间：</string>
+
+    <!-- 资格认证 -->
+    <string name="qa_title">资格认证</string>
+    <string name="qa_pro_info">认证产品信息</string>
+    <string name="qa_qe_uid_label">经销商编号</string>
+    <string name="qa_qe_uid_not_null">经销商编号不能为空</string>
+    <!-- 资格认证确认 -->
+    <string name="person_qa_title">资格认证确认</string>
+    <string name="qa_dialog_submit_yes_btn">您已经资格认证完毕</string>
+    <string name="qa_dialog_ds_login_str">领取电商大礼包</string>
+
+    <!-- 新建升级单 -->
+    <string name="bu_title">新建升级单</string>
+    <string name="bu_custom_type_label">报单类型</string>
+    <string name="dialog_ensure_bu">此操作属新建升级单，非订货行为，是否继续？</string>
+    <string name="bu_type_no_data">保单类型为空</string>
+
+    <!-- 查看全部单据 -->
+    <string name="all_order_chrWalletType">账户类型:</string>
+
+    <!-- 查看订货单 -->
+    <string name="mnyPayment">扣店支付金额：</string>
+    <string name="mnyPaymentPV">店支付库存：</string>
+    <string name="mnyIntegral">扣奖励积分金额：</string>
+    <string name="mnyIntegralPV">奖励积分库存：</string>
+
+    <!-- 产品列表 -->
+    <string name="chrOrderType">支付钱包:</string>
+
+    <!-- 注册提示信息 -->
+    <string name="main_top_title_wlgz">物流跟踪</string>
+    <string name="new_defult_news">动态信息正在推送中，您也可点击上方官网地址进行查询</string>
+    <string name="new_friend_dialog_news">温馨提示：\n您好，欢迎您正式成为罗麦会员，您将获得在罗麦科技公司的所有权益，您的会员资格是通过购买易麦通产品时赠送所得，如有退换货等售后需求请您首先通过易麦通售后流程办理。\n\t感谢您的支持！</string>
+    <string name="new_friend_dialog_jpnews">温馨提示：\n您好，欢迎您正式成为罗麦会员，您将获得在罗麦科技公司的所有权益，您的会员资格有一部分是通过购买易麦通产品时赠送所得，如有退换货等售后需求请您首先通过易麦通售后流程办理。\n\t感谢您的支持！</string>
+    <string name="title_activity_sign_order">订单签收</string>
+    <string name="title_activity_add_user_by_ticket">新伙伴加入(奖券)</string>
+    <string name="title_activity_user_sale_by_ticket">新建重复消费单(奖券)</string>
+    <string name="title_activity_raffleTicket_tranToStore">奖券转入电商</string>
+    <string name="title_activity_shop_transfer_ticket">专卖店奖券转账</string>
+    <string name="title_activity_dealer_transfer_ticket">奖券转账</string>
+    <string name="title_activity_withdraw">提现记录</string>
+    <string name="title_activity_location">属地登记</string>
+    <string name="title_activity_fill_consume">补报重复消费单</string>
+
+    <string name="yhgz_tips">举例说明：
+23880补单升级至39800时应该补单15920，此次优惠只需补11940即可，实际结算时按11940结算
+当您的注册业绩在两个销售级别区间时，按小的销售级别享受优惠
+假设您的注册业绩为20000，正处在19900至23880区间，按19900销售级别享受优惠</string>
+    <string name="mzsm"><u>免责声明</u></string>
+    <string name="up_load_hint">注：图片大小不能大于8MB,图片后缀类型(.jpg;.bmp;.jpeg),\n身份证信息必须清晰！</string>
+    <string name="gallery">手机相册</string>
+    <string name="all_photo">全部图片</string>
+    <string name="selected">已选(%1$s/%2$s)</string>
+    <string name="folder_photo_size">共%1$d张</string>
+    <string name="photo_edit">图片编辑</string>
+    <string name="photo_crop">图片裁剪</string>
+    <string name="crop_suc">裁剪成功</string>
+    <string name="crop_fail">裁剪失败</string>
+    <string name="no_photo">无图片</string>
+    <string name="waiting">请稍等…</string>
+    <string name="select_max_tips">已达到最大选择数量</string>
+    <string name="empty_sdcard">没有SD卡</string>
+    <string name="open_gallery_fail">相册初始化失败!</string>
+    <string name="take_photo_fail">拍照失败</string>
+    <string name="saving">正在保存照片…</string>
+    <string name="please_reopen_gf">请重新打开图片浏览器</string>
+    <string name="edit_letoff_photo_format">该图片格式不支持此操作</string>
+    <string name="photo_list_empty">获取图片失败!</string>
+    <string name="preview">预览</string>
+    <string name="permissions_tips_gallery">这个App请求访问你的相册</string>
+    <string name="permissions_denied_tips">无法获取图片</string>
+    <string name="maxsize_zero_tip">maxsize 应该大于0</string>
+</resources>
